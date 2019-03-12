@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FLASK-TODO</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-image-box">
+            <img src="/static/img/todo-image.png" alt="todo-images"/>
+        </div>
+        <div class="todo-app-box">
+            <h1 class="title">My Tasks</h1>
+
+            <div class="task-list">
+                <div class="task-item">
+                    <div class="task-title-box">
+                        <img class="bullet" src="/static/img/bullet.png" alt="task"/>
+                        <div class="task-title">Kill bug on the cancel button</div>
+                    </div>
+                </div>
+                <div class="task-item">
+                    <div class="task-title-box">
+                        <img class="bullet" src="/static/img/bullet.png" alt="task"/>
+                        <div class="task-title">Add epic loading animation</div>
+                    </div>
+                    <div class="task-detail">When user load all of data, put an loading animation on the central screen</div>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <input class="input-task" type="text" placeholder="New task"/>
+                <textarea class="input-detail" placeholder="Details.."></textarea>
+                <div class="input-button-box">
+                    <a class="details-button" href="#">Add details</a>
+                    <button class="save-button" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
