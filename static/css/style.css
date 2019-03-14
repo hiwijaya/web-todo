@@ -190,12 +190,17 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        background-color: #F4F7F6;
+    }
     .todo-app-box {
         width: 100%;
+        padding: 25px;
+        box-sizing: border-box;
         overflow-y: hidden;
     }
     .todo-image-box {
-        background-color: #F4F7F6;
+        padding: 20px 0;
     }
     .todo-image-box img {
         width: 50%;
