@@ -16,12 +16,16 @@ txtDetail.style.display = 'none';
 
 var tasks = [
     {
-        task: 'Kill bug on the cancel button',
+        task: 'Deep dive more about Python',
+        detail: 'Learn more about Flask, Django, and don\'t forget to always follow PEP8 style guide.',
+    },
+    {
+        task: 'Learn new latest backend technologies',
         detail: '',
     },
     {
-        task: 'Add epic loading animation',
-        detail: 'When user load all of data, put an loading animation on the central screen',
+        task: 'Stay clean',
+        detail: 'Keep in mind to always learn best practice, and still commitment that clean code is very important.'
     }
 ];
 
